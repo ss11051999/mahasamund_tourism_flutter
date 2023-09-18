@@ -7,12 +7,9 @@ import 'package:mahasamund_tourism/Theme/app_colors.dart';
 import 'package:mahasamund_tourism/Theme/app_values.dart';
 import 'package:mahasamund_tourism/Widgets/item_card_widget.dart';
 import 'package:mahasamund_tourism/Widgets/small_widgets.dart';
-import 'package:provider/provider.dart';
-
-import '../Actions/show_toast_msg.dart';
 
 class MainPage extends StatelessWidget {
-  MainPage({super.key});
+  const MainPage({super.key});
 
   @override
   Widget build(BuildContext context) {
